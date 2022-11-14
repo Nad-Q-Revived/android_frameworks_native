@@ -23,6 +23,9 @@ cc_defaults {
         "-O3",
         "-g0"
     ],
+    lto: {
+        thin: true,
+    },
 }
 
 cc_library_shared {
